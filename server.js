@@ -32,7 +32,7 @@ middleware(){
 }
 
 listen(){
-    this.app.listen(this.port,()=>{
+    this.app.listen(this.PORT,()=>{  
         console.log(`servidor corriendo en el puerto ${this.PORT}`);
     
     })
